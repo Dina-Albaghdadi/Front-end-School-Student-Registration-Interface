@@ -3,7 +3,7 @@
 # 📝 Project Overview
 * This project is a web-based interface for a **Student Management System** designed to digitize the student registration process.
 * It provides a structured and user-friendly electronic form to collect and manage academic and personal records.
-* The project was developed as a practical application for the **Web Technologies** course in Al-Azhar University-Gaza.
+* The project was developed as a practical application for the **Web Technologies** course at Al-Azhar University-Gaza.
 
 # 📸 Project Preview
 ![CUBED SMS Interface Preview](Interface/Project-preview.png)
@@ -12,7 +12,7 @@
 * **📋 Comprehensive Data Entry**: Includes over 20 fields for capturing student information, such as academic IDs (LRN), personal details, and parental information.
 * **🖱️ Interactive UI Elements**: 
     * **📅 HTML5 Input Types**: Integration of date pickers for Date of Enrollment and Birth Date.
-    * **🔽 Dropdown Menus**: Use of selection tags for Grade and Sex selection.
+    * **🔽 Dropdown Menus**: Use of `<select>` tags for Grade and Sex selection.
 * **🖼️ Media Management**: A dedicated section for student profile pictures with "Browse" functionality.
 * **⚙️ System Operation Buttons**: Structured action buttons for administrative tasks: **Add**, **Save**, **Delete**, **Database access**, and **Log Out**.
 
@@ -22,14 +22,14 @@
 * **✍️ Development Tool**: Developed and structured using **Notepad++**.
 
 # 📂 Project Structure
-* **📄 index.html**: The core HTML document containing the document structure and form elements.
-* **🎨 Style.css**: The external CSS file used to manage colors, positioning, and overall aesthetic.
-* **📁 Interface/**: A dedicated folder created to store all UI assets and images for better organization [2].
-    * **🖼️ Project-preview.png**: The image file showing the final design for the README.
-    * **🖼️ Logos & Assets**: All icons and logos used in the header and form.
+* **📄 index.html**: The main HTML document (Root directory).
+* **🎨 Style.css**: The external stylesheet for visual design (Root directory).
+* **📁 Interface/**: A dedicated assets folder to keep the project organized. It contains:
+    * **🖼️ Project-preview.png**: Image for GitHub documentation.
+    * **🖼️ UI Logos**: All graphic assets and logos used in the header and form (e.g., Left logo, Right logo, Group photo).
 
 # 📖 How to View
-* ⬇️ Clone or download the repository.
-* 📁 **Important Step**: Create a folder named **Interface** in the main directory.
-* 🖼️ **Image Setup**: Place all the required logos and photos (like Group photo.png, Left logo.png, Right photo.png) inside the **Interface** folder to ensure they load correctly.
-* 📁 Ensure **index.html**, **Style.css**, and the **Interface** folder are in the same directory.
+* ⬇️ **Clone or Download**: Get a copy of the repository to your local machine.
+* 📁 **Folder Organization**: Ensure that **index.html** and **Style.css** remain in the root folder, and all images are kept inside the **Interface** directory.
+* 🔗 **Check Paths**: The HTML code is configured to pull images from the `Interface/` path to ensure a clean workspace.
+* 🌐 **Run**: Open **index.html** in any modern web browser (Chrome, Edge, Firefox) to view the project.
